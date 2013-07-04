@@ -1,0 +1,11 @@
+/*
+Theme Name:     Twenty Twelve for IWDSA
+Theme URI:      http://iwdsa.org/
+Description:    Custom child theme for IWDSA based on the Twenty Twelve theme
+Author:         Jonathan M Tran
+Author URI:     http://jonathanmtran.com
+Template:       twentytwelve-iwdsa
+Version:        0.0.1
+*/
+
+@import url("../twentytwelve/style.css");
