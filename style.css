@@ -4,8 +4,70 @@ Theme URI:      http://iwdsa.org/
 Description:    Custom child theme for IWDSA based on the Twenty Twelve theme
 Author:         Jonathan M Tran
 Author URI:     http://jonathanmtran.com
-Template:       twentytwelve-iwdsa
-Version:        0.0.1
+Template:       twentytwelve
+Version:        1.0.0
 */
 
-@import url("../twentytwelve/style.css");
+@import url('../twentytwelve/style.css');
+@import url('bootstrap.min.css');
+
+.nivoSlider {
+    position:relative;
+    background:url(nivo-slider/themes/default/loading.gif) no-repeat 50% 50%;
+	border: 1px solid #ededed;
+	
+	min-width: 123px;
+	min-height: 32px;
+	
+	max-width: 960px;
+	max-height: 250px;
+}
+
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+.homepage-bucket {
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.span3.homepage-bucket {
+		float: none;
+		width: 100%;
+	}
+}
+
+#social-networking {
+	float: right;
+	display: inline-block;
+}
+
+#social-networking #si-facebook {
+	background-color: rgb(59, 89, 152);
+}
+
+#social-networking #si-google-plus {
+	background-color: rgb(209,72,54);
+}
+
+#social-networking #si-linkedin {
+	background-color: rgb(0,127,177);
+}
+
+#social-networking #si-twitter {
+	background-color: rgb(0,172,237);
+}
+
+.site-info {
+	display: inline-block;
+}
+
