@@ -34,7 +34,10 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-		<hgroup>
+		<div id="logo">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo content_url(); ?>/uploads/2013/07/iwdsa_transparent250.png" alt="IWDSA Logo" /></a>
+		</div>
+		<hgroup style="display: none;">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</hgroup>
@@ -49,13 +52,7 @@
 			<br />
 			<div class="ribbon"></div>
 			<div id="slider" class="nivoSlider">
-				<img src="<?php echo content_url(); ?>/uploads/2013/06/copy-iwdsa.jpg" alt="" />
-				<img src="<?php echo content_url(); ?>/uploads/2013/07/IMG_5150.jpg" alt="" title="#htmlcaption" /></a>
-				<img src="<?php echo content_url(); ?>/uploads/2013/07/IMG_6556.jpg" alt="" /></a>
-				<img src="<?php echo content_url(); ?>/uploads/2013/07/IMG_4249.jpg" alt="" /></a>
-			</div>
-			<div id="htmlcaption" class="nivo-html-caption">
-				<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+				<img src="<?php echo content_url(); ?>/uploads/2013/07/DSC0846.jpg" alt="" /></a>
 			</div>
 		</div><!-- #slider -->
 		

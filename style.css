@@ -39,35 +39,50 @@ Version:        1.0.0
 	text-align: center;
 }
 
-@media screen and (max-width: 600px) {
-	.span3.homepage-bucket {
-		float: none;
-		width: 100%;
-	}
-}
-
-#social-networking {
+#social {
 	float: right;
 	display: inline-block;
 }
 
-#social-networking #si-facebook {
+.si-links .row {
+	margin-left: 0px;
+}
+
+.si-facebook {
 	background-color: rgb(59, 89, 152);
 }
 
-#social-networking #si-google-plus {
+.si-google-plus {
 	background-color: rgb(209,72,54);
 }
 
-#social-networking #si-linkedin {
+.si-linkedin {
 	background-color: rgb(0,127,177);
 }
 
-#social-networking #si-twitter {
+.si-twitter {
 	background-color: rgb(0,172,237);
+}
+
+.si-irc {
+	background-color: rgb(0,0,0);
 }
 
 .site-info {
 	display: inline-block;
 }
 
+@media screen and (max-width: 768px) {
+	#logo {
+		text-align: center;
+	}
+
+	#social {
+		float: none;
+	}
+
+	.span3.homepage-bucket {
+		float: none;
+		width: 100%;
+	}
+}
